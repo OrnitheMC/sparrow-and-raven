@@ -1,0 +1,125 @@
+import java.util.regex.Pattern
+import org.apache.commons.io.FileUtils
+
+buildscript {
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath "commons-io:commons-io:2.8.0"
+	}
+}
+
+plugins {
+	id 'de.undercouch.download' version '4.1.1'
+	id 'java'
+	id 'maven-publish'
+}
+
+def ENV = System.getenv()
+def maven_url = ENV.MAVEN_URL
+def maven_group = "net.ornithemc"
+def maven_group_for_url = "net.ornithemc".replace(".", "/")
+def artifact_id = "sparrow"
+def publishedVersions = new HashMap<String, Integer>()
+
+if (maven_url) {
+	try {
+		def xml = new URL("${maven_url}/${maven_group_for_url}/${artifact_id}/maven-metadata.xml").text
+		def metadata = new XmlSlurper().parseText(xml)
+		metadata.versioning.versions.version.each {
+			String[] version = it.text().split(Pattern.quote("+build."))
+			String mcVersion = version[0]
+			int build = Integer.parseInt(version[1])
+			publishedVersions.compute(mcVersion, (key, value) -> value == null || build > value ? build : value)
+		}
+	} catch (FileNotFoundException ignored) {
+		// only happens if no publications exist yet
+	}
+}
+
+def temp = file(".gradle/temp/")
+
+static String version(String mcVersion, int build) {
+	return "${mcVersion}+build.${build}"
+}
+
+file("signatures").eachFile {
+	if (!it.name.endsWith(".sigs")) {
+		return
+	}
+
+	def signatures = it
+	def mcVersion = signatures.name.substring(0, signatures.name.length() - ".sigs".length())
+	def prevBuild = publishedVersions.getOrDefault(mcVersion, 0)
+	def nextBuild = prevBuild + 1
+
+	if (prevBuild > 0) {
+		def prevVersion = version(mcVersion, prevBuild)
+
+		def prevJar = new File(temp, "sparrow.jar")
+		def prevSignatures = new File(temp, "signatures.sigs")
+
+		download {
+			src new URL("${maven_url}/${maven_group_for_url}/${artifact_id}/${prevVersion}/${artifact_id}-${prevVersion}.jar")
+			dest prevJar
+			overwrite true
+		}
+		copy {
+			from({ zipTree(prevJar) }) {
+				from "signatures/signatures.sigs"
+				rename "signatures.sigs", "../${prevSignatures.name}"
+			}
+
+			into prevSignatures.parentFile
+		}
+
+		if (FileUtils.contentEquals(signatures, prevSignatures)) {
+			return
+		}
+	}
+
+	def nextVersion = version(mcVersion, nextBuild)
+
+	def makeJar = task("${nextVersion}_makeJar", type: Jar) {
+		baseName "${artifact_id}-${nextVersion}"
+		from(file(signatures)) {
+			into "signatures"
+			rename signatures.name, "signatures.sigs"
+		}
+		destinationDirectory = file("build/jars")
+	}
+
+	build.dependsOn makeJar
+
+	publishing {
+		publications {
+			create("${mcVersion.replace(" ", "")}_mavenJava", MavenPublication) {
+				groupId maven_group
+				artifactId artifact_id
+				version nextVersion
+				artifact(makeJar.archiveFile) {
+					builtBy makeJar
+				}
+			}
+		}
+	}
+
+}
+
+publishing {
+	repositories {
+		if (maven_url && false) {
+			maven {
+				url maven_url
+				credentials {
+					username ENV.MAVEN_USERNAME
+					password ENV.MAVEN_PASSWORD
+				}
+				authentication {
+					basic(BasicAuthentication)
+				}
+			}
+		}
+	}
+}
