@@ -1,1 +1,1 @@
-fc	<T>Ljava/lang/Object;Ljava/lang/Iterable<TT;>;
+fc	<T:Ljava/lang/Object;>Ljava/lang/Object;Ljava/lang/Iterable<TT;>;
