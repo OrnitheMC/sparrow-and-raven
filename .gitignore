@@ -3,6 +3,7 @@
 /.gradle
 /.idea
 /run
+/src
 
 # eclipse
 .eclipse
