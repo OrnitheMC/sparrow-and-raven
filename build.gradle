@@ -588,4 +588,21 @@ if (maven_url) {
 
 	makePublications(excsDir, '.excs', ravenVersions, maven_url, maven_group, maven_group_for_url, raven_artifact_id, 'exceptions')
 	makePublications(sigsDir, '.sigs', sparrowVersions, maven_url, maven_group, maven_group_for_url, sparrow_artifact_id, 'signatures')
+
+	publishing {
+		repositories {
+			if (maven_url) {
+				maven {
+					url maven_url
+					credentials {
+						username ENV.MAVEN_USERNAME
+						password ENV.MAVEN_PASSWORD
+					}
+					authentication {
+						basic(BasicAuthentication)
+					}
+				}
+			}
+		}
+	}
 }
