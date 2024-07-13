@@ -1,4 +1,4 @@
-# sparrow
+# Sparrow
 
 Java signature mappings for classes, fields, and methods.
 
