@@ -1,4 +1,41 @@
-acu
+acu	<K:Ljava/lang/Object;T::Lacx<TK;TT;>;R:Ljava/lang/Object;>Ljava/lang/Object;
+	a	(Ljava/lang/Object;Lacu$a;)Lacu$a;	(TK;Lacu<TK;TT;TR;>.a;)Lacu<TK;TT;TR;>.a;
+	a	(Ljava/lang/Object;Z)Lacu$a;	(TK;Z)Lacu<TK;TT;TR;>.a;
 	b	(Ljava/lang/Object;)Lacu$a;	(TK;)Lacu<TK;TT;TR;>.a;
-tx
-	a	(Laxm;Z)Lacu$a; (Laxm;Z)Lacu<Laxm;Lbnd;Lbnr;>.a;
+	b	(Ljava/lang/Object;Lacu$a;)V	(TK;Lacu<TK;TT;TR;>.a;)V
+crl$1
+	<init>	(Lcrl;Lhw;Lcrj;)V	()V
+cwq$1	Ljava/lang/Object;Lcom/google/common/util/concurrent/FutureCallback<Ljava/util/List<Ljava/lang/Object;>;>;
+	<init>	(Lcwq;Lcwo;Lcwr;)V	()V
+dea$1	Ljava/lang/Object;Lcom/google/common/util/concurrent/FutureCallback<Ljava/lang/Object;>;
+	<init>	(Ldea;Ljava/lang/String;Ljava/io/File;Lcom/google/common/util/concurrent/SettableFuture;)V	()V
+deh$2
+	<init>	(Ldeh;Lcub;Ldeh$a;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lpc;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;)V	()V
+dge$1
+	<init>	(Ldge;[I[I)V	()V
+dgt$1	Ljava/lang/Object;Ldgw<Ldft;>;
+	<init>	(Ldgt;Lpc;)V	()V
+el$1	Lcom/google/common/collect/AbstractIterator<Lel$a;>;
+el$2	Lcom/google/common/collect/AbstractIterator<Lel;>;
+et	<T:Ljava/lang/Object;>Ljava/lang/Object;Ljava/lang/Iterable<TT;>;
+gj$1
+	<init>	(Lgj;Ljava/lang/String;)V	()V
+tx	Lacu<Laxm;Lbnd;Lbnr;>;
+	a	(Laxm;Lacu$a;)Lacu$a;	(Laxm;Lacu<Laxm;Lbnd;Lbnr;>.a;)Lacu<Laxm;Lbnd;Lbnr;>.a;
+	a	(Laxm;Z)Lacu$a;	(Laxm;Z)Lacu<Laxm;Lbnd;Lbnr;>.a;
+	b	(Laxm;Lacu$a;)V	(Laxm;Lacu<Laxm;Lbnd;Lbnr;>.a;)V
+	g	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap<Lacu<Laxm;Lbnd;Lbnr;>.a;>;
+tx$1	Laxq<Lacu<Laxm;Lbnd;Lbnr;>.a;>;
+	a	(Lacu$a;)Z	(Lacu<Laxm;Lbnd;Lbnr;>.a;)Z
+vl$2
+	<init>	([Lcom/mojang/authlib/GameProfile;)V	()V
+vo$1
+	<init>	(Lnet/minecraft/server/MinecraftServer;Ljava/util/Map;Lvu;)V	()V
+vo$2
+	<init>	(Lnet/minecraft/server/MinecraftServer;Lvq;)V	()V
+vo$3
+	<init>	(Lnet/minecraft/server/MinecraftServer;Lvw;)V	()V
+vo$4
+	<init>	(Lnet/minecraft/server/MinecraftServer;Ljava/util/List;)V	()V
+vo$5
+	<init>	(Lso;Ljava/io/File;Ljava/io/File;Ljava/io/File;[Ljava/lang/String;)V	()V
