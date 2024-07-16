@@ -1,3 +1,5 @@
+import java.util.regex.Pattern
+
 import net.ornithemc.keratin.api.TaskSelection
 import org.apache.commons.io.FileUtils
 
