@@ -76,7 +76,7 @@ void makePublications(def dir, def ext, def versions, def maven_url, def maven_g
 			def prevJar = new File(tmp, "build-${prevBuild}.jar")
 			def prevFile = new File(tmp, "build-${prevBuild}${ext}")
 
-			download {
+			download.run {
 				src new URL("${maven_url}/${maven_group_for_url}/${artifact_id}/${prevVersionBuild}/${artifact_id}-${prevVersionBuild}.jar")
 				dest prevJar
 				overwrite true
