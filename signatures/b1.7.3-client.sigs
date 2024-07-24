@@ -86,7 +86,7 @@ fd
 	a	(Ljava/util/Collection;)V	(Ljava/util/Collection<Low;>;)V
 	a	(Ljava/util/List;)V	(Ljava/util/List<Lsn;>;)V
 	a	(Lsn;Leq;)Ljava/util/List;	(Lsn;Leq;)Ljava/util/List<Leq;>;
-	b	(Ljava/lang/Class;)I	(Ljava/lang/Class<+Lnet/minecraft/entity/EntityCategoryProvider;>;)I
+	b	(Ljava/lang/Class;)I	(Ljava/lang/Class<*>;)I
 	b	(Ljava/util/List;)V	(Ljava/util/List<Lsn;>;)V
 	b	(Lsn;Leq;)Ljava/util/List;	(Lsn;Leq;)Ljava/util/List<Lsn;>;
 	b	Ljava/util/List;	Ljava/util/List<Lsn;>;
@@ -251,9 +251,9 @@ ky	Ljava/lang/Object;Ljava/util/Comparator<Ldt;>;
 li
 	a	(Ljava/lang/Class;Leq;Ljava/util/List;)V	<T:Lsn;>(Ljava/lang/Class<-TT;>;Leq;Ljava/util/List<TT;>;)V
 lk	Ljava/lang/Enum<Llk;>;
-	<init>	(Ljava/lang/String;ILjava/lang/Class;ILln;Z)V	(Ljava/lang/Class<+Lnet/minecraft/entity/EntityCategoryProvider;>;ILln;Z)V
-	a	()Ljava/lang/Class;	()Ljava/lang/Class<+Lnet/minecraft/entity/EntityCategoryProvider;>;
-	d	Ljava/lang/Class;	Ljava/lang/Class<+Lnet/minecraft/entity/EntityCategoryProvider;>;
+	<init>	(Ljava/lang/String;ILjava/lang/Class;ILln;Z)V	(Ljava/lang/Class<*>;ILln;Z)V
+	a	()Ljava/lang/Class;	()Ljava/lang/Class<*>;
+	d	Ljava/lang/Class;	Ljava/lang/Class<*>;
 ll
 	a	(Ljava/lang/Class;)Lje;	<T:Low;>(Ljava/lang/Class<+Low;>;)Lje<TT;>;
 	b	(Low;)Lje;	<T:Low;>(Low;)Lje<TT;>;
