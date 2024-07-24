@@ -1,23 +1,6 @@
 aq
 	<init>	(Ljava/lang/Class;I)V	(Ljava/lang/Class<+Llq;>;I)V
 	a	Ljava/lang/Class;	Ljava/lang/Class<+Llq;>;
-argo/jdom/JsonListenerToJdomAdapter$1
-	<init>	(Largo/jdom/JsonListenerToJdomAdapter;Largo/jdom/JsonArrayNodeBuilder;)V	()V
-argo/jdom/JsonListenerToJdomAdapter$2
-	<init>	(Largo/jdom/JsonListenerToJdomAdapter;Largo/jdom/JsonObjectNodeBuilder;)V	()V
-argo/jdom/JsonListenerToJdomAdapter$3
-	<init>	(Largo/jdom/JsonListenerToJdomAdapter;Largo/jdom/JsonFieldBuilder;)V	()V
-argo/jdom/JsonNodeSelectors$1	Largo/jdom/LeafFunctor<Largo/jdom/JsonNode;Ljava/lang/String;>;
-argo/jdom/JsonNodeSelectors$2	Largo/jdom/LeafFunctor<Largo/jdom/JsonNode;Ljava/util/List<Largo/jdom/JsonNode;>;>;
-	typeSafeApplyTo	(Largo/jdom/JsonNode;)Ljava/util/List;	(Largo/jdom/JsonNode;)Ljava/util/List<Largo/jdom/JsonNode;>;
-argo/jdom/JsonNodeSelectors$3	Largo/jdom/LeafFunctor<Largo/jdom/JsonNode;Ljava/util/Map<Largo/jdom/JsonStringNode;Largo/jdom/JsonNode;>;>;
-	typeSafeApplyTo	(Largo/jdom/JsonNode;)Ljava/util/Map;	(Largo/jdom/JsonNode;)Ljava/util/Map<Largo/jdom/JsonStringNode;Largo/jdom/JsonNode;>;
-argo/jdom/JsonNodeSelectors$4	Largo/jdom/LeafFunctor<Ljava/util/Map<Largo/jdom/JsonStringNode;Largo/jdom/JsonNode;>;Largo/jdom/JsonNode;>;
-	matchesNode	(Ljava/util/Map;)Z	(Ljava/util/Map<Largo/jdom/JsonStringNode;Largo/jdom/JsonNode;>;)Z
-	typeSafeApplyTo	(Ljava/util/Map;)Largo/jdom/JsonNode;	(Ljava/util/Map<Largo/jdom/JsonStringNode;Largo/jdom/JsonNode;>;)Largo/jdom/JsonNode;
-argo/jdom/JsonNodeSelectors$5	Largo/jdom/LeafFunctor<Ljava/util/List<Largo/jdom/JsonNode;>;Largo/jdom/JsonNode;>;
-	matchesNode	(Ljava/util/List;)Z	(Ljava/util/List<Largo/jdom/JsonNode;>;)Z
-	typeSafeApplyTo	(Ljava/util/List;)Largo/jdom/JsonNode;	(Ljava/util/List<Largo/jdom/JsonNode;>;)Largo/jdom/JsonNode;
 ay	Ljava/lang/Object;Ljava/lang/Comparable<Lay;>;
 b
 	b	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Integer;Ljava/lang/String;>;
@@ -169,6 +152,7 @@ gt
 	c	Ljava/util/Set;	Ljava/util/Set<Ljava/lang/Integer;>;
 	d	Ljava/util/Set;	Ljava/util/Set<Ljava/lang/Integer;>;
 	e	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/Integer;Lir;>;
+gx	Ljava/lang/Object;Ljava/util/Comparator<Lck;>;
 ha
 	n	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Integer;Ljava/lang/Short;>;
 he
@@ -245,17 +229,10 @@ na
 	a	(Ldj;IIILcz;Ljava/util/ArrayList;)V	(Ldj;IIILcz;Ljava/util/ArrayList<Lcz;>;)V
 nc
 	b	Ljava/util/List;	Ljava/util/List<Lht;>;
-net/minecraft/client/gui/screen/StatsScreen$ItemStatsListWidget$1	Ljava/lang/Object;Ljava/util/Comparator<Lmm;>;
-	<init>	(Lnet/minecraft/client/gui/screen/StatsScreen$ItemStatsListWidget;Lnet/minecraft/client/gui/screen/StatsScreen;)V	()V
-net/minecraft/client/gui/screen/StatsScreen$StatsListWidget$1	Ljava/lang/Object;Ljava/util/Comparator<Lmm;>;
-	<init>	(Lnet/minecraft/client/gui/screen/StatsScreen$StatsListWidget;Lnet/minecraft/client/gui/screen/StatsScreen;)V	()V
-net/minecraft/crafting/CraftingManager$1	Ljava/lang/Object;Ljava/util/Comparator<Lck;>;
 net/minecraft/server/MinecraftServer
 	b	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Integer;>;
 	r	Ljava/util/List;	Ljava/util/List<Ldg;>;
 	s	Ljava/util/List;	Ljava/util/List<Laf;>;
-net/minecraft/server/dedicated/gui/DedicatedServerGui$2
-	<init>	(Lnf;Ljavax/swing/JTextField;)V	()V
 nl
 	a	Ljava/util/Set;	Ljava/util/Set<Lff;>;
 	b	Lgo;	Lgo<Lff;>;
@@ -271,5 +248,7 @@ om
 oo
 	a	Ljava/util/List;	Ljava/util/List<Ldl;>;
 	c	Ljava/util/List;	Ljava/util/List<Ly;>;
+r
+	<init>	(Lnf;Ljavax/swing/JTextField;)V	()V
 y
 	b	Ljava/util/List;	Ljava/util/List<Ldl;>;
