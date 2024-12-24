@@ -8,22 +8,22 @@ ai
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
 an
-	a	(Ljava/io/Reader;Lwg;)V	xe	java/io/IOException
-	a	(Llj;)Ljava/lang/String;	xe	java/io/IOException
-	a	(Llj;Lwg;)V	xe	java/io/IOException
-	b	(Llj;)Ljava/lang/String;	xe	java/io/IOException
-	b	(Llj;Lwg;)V	xe	java/io/IOException
-	c	(Llj;)C	xe	java/io/IOException
-	c	(Llj;Lwg;)V	xe	java/io/IOException
-	d	(Llj;)C	xe	java/io/IOException
-	d	(Llj;Lwg;)V	xe	java/io/IOException
+	a	(Ljava/io/Reader;Lwg;)V	java/io/IOException	xe
+	a	(Llj;)Ljava/lang/String;	java/io/IOException	xe
+	a	(Llj;Lwg;)V	java/io/IOException	xe
+	b	(Llj;)Ljava/lang/String;	java/io/IOException	xe
+	b	(Llj;Lwg;)V	java/io/IOException	xe
+	c	(Llj;)C	java/io/IOException	xe
+	c	(Llj;Lwg;)V	java/io/IOException	xe
+	d	(Llj;)C	java/io/IOException	xe
+	d	(Llj;Lwg;)V	java/io/IOException	xe
 	e	(Llj;)Ljava/lang/String;	java/io/IOException
-	f	(Llj;)Ljava/lang/String;	xe	java/io/IOException
-	g	(Llj;)Ljava/lang/String;	xe	java/io/IOException
+	f	(Llj;)Ljava/lang/String;	java/io/IOException	xe
+	g	(Llj;)Ljava/lang/String;	java/io/IOException	xe
 	h	(Llj;)Ljava/lang/String;	java/io/IOException
-	i	(Llj;)Ljava/lang/String;	xe	java/io/IOException
-	j	(Llj;)C	xe	java/io/IOException
-	k	(Llj;)I	xe	java/io/IOException
+	i	(Llj;)Ljava/lang/String;	java/io/IOException	xe
+	j	(Llj;)C	java/io/IOException	xe
+	k	(Llj;)I	java/io/IOException	xe
 	l	(Llj;)I	java/io/IOException
 as
 	a	(Ljava/io/DataInput;)Lnu;	java/io/IOException
@@ -38,7 +38,6 @@ ca
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
 cj
 	a	(Ljava/util/Map;Ljava/io/File;Ljava/io/File;Ljava/io/File;)V	java/io/IOException
-	access$400	(Lcj;Ljava/util/Map;Ljava/io/File;Ljava/io/File;Ljava/io/File;)V	java/io/IOException
 cz
 	a	(Ljava/net/URL;Ljava/io/File;J)V	java/io/IOException
 di
@@ -59,8 +58,6 @@ ev
 fa
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
-fm
-	b	()V	us
 fn
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
@@ -87,8 +84,6 @@ hq
 hx
 	a	(Ljava/io/Reader;)Lqe;	java/io/IOException	xe
 	a	(Ljava/lang/String;)Lqe;	xe
-i
-	a	(Lnet/minecraft/client/Minecraft;)V	java/io/IOException
 ig
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
@@ -97,6 +92,8 @@ ij
 	a	(Ljava/io/DataInput;)V	java/io/IOException
 	a	(Ljava/io/DataOutput;)V	java/io/IOException
 	b	(Ljava/io/DataInput;)Lij;	java/io/IOException
+io
+	openInputStream	()Ljava/io/InputStream;	java/io/IOException
 iw
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
@@ -126,7 +123,6 @@ ki
 	a	(Lki;Ljava/io/DataOutputStream;)V	java/io/IOException
 ld
 	a	(Lfd;II)Llm;	java/io/IOException
-	a	(Lfd;Llm;)V	java/io/IOException
 lh
 	a	(Ljava/io/DataInput;)V	java/io/IOException
 	a	(Ljava/io/DataOutput;)V	java/io/IOException
@@ -163,6 +159,9 @@ net/minecraft/client/Minecraft
 nm
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+np
+	read	()I	java/io/IOException
+	read	([BII)I	java/io/IOException
 ns
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
@@ -184,8 +183,25 @@ ox
 p
 	a	(Ljava/io/DataInput;)V	java/io/IOException
 	a	(Ljava/io/DataOutput;)V	java/io/IOException
+paulscode/sound/Library
+	<init>	()V	paulscode/sound/SoundSystemException
+	init	()V	paulscode/sound/SoundSystemException
+paulscode/sound/SoundSystem
+	<init>	(Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
+	init	(Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
+	newLibrary	(Ljava/lang/Class;)Z	paulscode/sound/SoundSystemException
+	switchLibrary	(Ljava/lang/Class;)Z	paulscode/sound/SoundSystemException
+paulscode/sound/SoundSystemConfig
+	addLibrary	(Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
+	setCodec	(Ljava/lang/String;Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
 paulscode/sound/Vector3D
 	clone	()Ljava/lang/Object;	java/lang/CloneNotSupportedException
+paulscode/sound/codecs/CodecJOrbis
+	openInputStream	()Ljava/io/InputStream;	java/io/IOException
+	readHeader	()Z	java/io/IOException
+paulscode/sound/libraries/LibraryLWJGLOpenAL
+	<init>	()V	paulscode/sound/SoundSystemException
+	init	()V	paulscode/sound/SoundSystemException
 pe
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
@@ -274,20 +290,16 @@ vh
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
 vp
-	a	(Lnet/minecraft/client/Minecraft;)V	java/io/IOException
+	<init>	(Ljava/io/File;)V	java/io/IOException
 vt
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
 vw
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
-wt
-	b	()V	us
 wu
 	a	(Ljava/io/DataInputStream;)V	java/io/IOException
 	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
-wy
-	b	()V	us
 xb
 	a	(Ljava/io/DataInput;)V	java/io/IOException
 	a	(Ljava/io/DataOutput;)V	java/io/IOException
