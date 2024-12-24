@@ -114,11 +114,14 @@ gs
 	d	()Ljava/util/List;	()Ljava/util/List<Lgs;>;
 gt	<T:Llo;>Lbu<TT;>;
 	a	(Llo;)F	(TT;)F
+	a	(Llo;DDD)V	(TT;DDD)V
 	a	(Llo;DDDFF)V	(TT;DDDFF)V
 	a	(Llo;F)V	(TT;F)V
 	a	(Llo;FF)I	(TT;FF)I
 	a	(Llo;FFF)V	(TT;FFF)V
 	a	(Llo;IF)Z	(TT;IF)Z
+	a	(Llo;Ljava/lang/String;DDDI)V	(TT;Ljava/lang/String;DDDI)V
+	b	(Llo;DDD)V	(TT;DDD)V
 	b	(Llo;F)V	(TT;F)V
 	b	(Llo;IF)Z	(TT;IF)Z
 	c	(Llo;F)F	(TT;F)F

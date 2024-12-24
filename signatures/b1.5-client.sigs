@@ -110,11 +110,14 @@ gj
 	d	()Ljava/util/List;	()Ljava/util/List<Lgj;>;
 gk	<T:Lkw;>Lbp<TT;>;
 	a	(Lkw;)F	(TT;)F
+	a	(Lkw;DDD)V	(TT;DDD)V
 	a	(Lkw;DDDFF)V	(TT;DDDFF)V
 	a	(Lkw;F)V	(TT;F)V
 	a	(Lkw;FF)I	(TT;FF)I
 	a	(Lkw;FFF)V	(TT;FFF)V
 	a	(Lkw;IF)Z	(TT;IF)Z
+	a	(Lkw;Ljava/lang/String;DDDI)V	(TT;Ljava/lang/String;DDDI)V
+	b	(Lkw;DDD)V	(TT;DDD)V
 	b	(Lkw;F)V	(TT;F)V
 	b	(Lkw;IF)Z	(TT;IF)Z
 	c	(Lkw;F)F	(TT;F)F

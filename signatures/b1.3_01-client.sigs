@@ -74,11 +74,14 @@ fb
 	a	Ljava/util/List;	Ljava/util/List<Lqk;>;
 ff	<T:Liz;>Lbb<TT;>;
 	a	(Liz;)F	(TT;)F
+	a	(Liz;DDD)V	(TT;DDD)V
 	a	(Liz;DDDFF)V	(TT;DDDFF)V
 	a	(Liz;F)V	(TT;F)V
 	a	(Liz;FF)I	(TT;FF)I
 	a	(Liz;FFF)V	(TT;FFF)V
 	a	(Liz;IF)Z	(TT;IF)Z
+	a	(Liz;Ljava/lang/String;DDDI)V	(TT;Ljava/lang/String;DDDI)V
+	b	(Liz;DDD)V	(TT;DDD)V
 	b	(Liz;F)V	(TT;F)V
 	c	(Liz;F)F	(TT;F)F
 	d	(Liz;F)F	(TT;F)F

@@ -86,11 +86,14 @@ fk
 	a	Ljava/util/List;	Ljava/util/List<Lra;>;
 fo	<T:Ljm;>Lbe<TT;>;
 	a	(Ljm;)F	(TT;)F
+	a	(Ljm;DDD)V	(TT;DDD)V
 	a	(Ljm;DDDFF)V	(TT;DDDFF)V
 	a	(Ljm;F)V	(TT;F)V
 	a	(Ljm;FF)I	(TT;FF)I
 	a	(Ljm;FFF)V	(TT;FFF)V
 	a	(Ljm;IF)Z	(TT;IF)Z
+	a	(Ljm;Ljava/lang/String;DDDI)V	(TT;Ljava/lang/String;DDDI)V
+	b	(Ljm;DDD)V	(TT;DDD)V
 	b	(Ljm;F)V	(TT;F)V
 	c	(Ljm;F)F	(TT;F)F
 	d	(Ljm;F)F	(TT;F)F
