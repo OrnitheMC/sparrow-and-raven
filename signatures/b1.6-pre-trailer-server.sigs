@@ -68,14 +68,14 @@ dm
 	d	(IIIIII)Ljava/util/List;	(IIIIII)Ljava/util/List<Lja;>;
 dn
 	a	(Lcq;Ljava/util/List;)V	(Lcq;Ljava/util/List<Lei;>;)V
-dt	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	a	(IJLjava/lang/Object;I)V	(IJTT;I)V
-	a	(J)Ljava/lang/Object;	(J)TT;
-	a	(JLjava/lang/Object;)V	(JTT;)V
-	a	([Ljv;)V	([Ljv<TT;>;)V
-	a	[Ljv;	[Ljv<TT;>;
-	b	(J)Ljava/lang/Object;	(J)TT;
-	c	(J)Ljv;	(J)Ljv<TT;>;
+dt	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	a	(IJLjava/lang/Object;I)V	(IJTV;I)V
+	a	(J)Ljava/lang/Object;	(J)TV;
+	a	(JLjava/lang/Object;)V	(JTV;)V
+	a	([Ljv;)V	([Ljv<TV;>;)V
+	a	[Ljv;	[Ljv<TV;>;
+	b	(J)Ljava/lang/Object;	(J)TV;
+	c	(J)Ljv;	(J)Ljv<TV;>;
 dv
 	c	Lgi;	Lgi<Ld;>;
 eo
@@ -123,14 +123,15 @@ gb
 	c	Ljava/util/List;	Ljava/util/List<Lnh;>;
 	d	Ljava/util/List;	Ljava/util/List<Lme;>;
 	e	Ljava/util/List;	Ljava/util/List<Lme;>;
-gi	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	a	(I)Ljava/lang/Object;	(I)TT;
-	a	(IILjava/lang/Object;I)V	(IITT;I)V
-	a	(ILjava/lang/Object;)V	(ITT;)V
-	a	([Lnu;)V	([Lnu<TT;>;)V
-	a	[Lnu;	[Lnu<TT;>;
-	d	(I)Ljava/lang/Object;	(I)TT;
-	e	(I)Lnu;	(I)Lnu<TT;>;
+gi	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	a	(I)Ljava/lang/Object;	(I)TV;
+	a	(IILjava/lang/Object;I)V	(IITV;I)V
+	a	(ILjava/lang/Object;)V	(ITV;)V
+	a	([Lnu;)V	([Lnu<TV;>;)V
+	a	[Lnu;	[Lnu<TV;>;
+	c	(I)Lnu;	(I)Lnu<TV;>;
+	d	(I)Ljava/lang/Object;	(I)TV;
+	e	(I)Lnu;	(I)Lnu<TV;>;
 gl
 	<init>	(ILjava/util/List;)V	(ILjava/util/List<Lfu;>;)V
 gm
@@ -180,11 +181,11 @@ je
 	o	Ljava/util/List;	Ljava/util/List<Lgn;>;
 jq
 	f	Ljava/util/ArrayList;	Ljava/util/ArrayList<Ljava/lang/Boolean;>;
-jv	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	<init>	(IJLjava/lang/Object;Ljv;)V	(IJTT;Ljv<TT;>;)V
-	b	()Ljava/lang/Object;	()TT;
-	b	Ljava/lang/Object;	TT;
-	c	Ljv;	Ljv<TT;>;
+jv	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	<init>	(IJLjava/lang/Object;Ljv;)V	(IJTV;Ljv<TV;>;)V
+	b	()Ljava/lang/Object;	()TV;
+	b	Ljava/lang/Object;	TV;
+	c	Ljv;	Ljv<TV;>;
 jz
 	g	Ljava/util/Set;	Ljava/util/Set<Lnp;>;
 ka	Ljava/lang/Object;Ljava/lang/Comparable<Lka;>;
@@ -226,11 +227,11 @@ net/minecraft/server/MinecraftServer
 	s	Ljava/util/List;	Ljava/util/List<Lae;>;
 nf
 	g	Ljava/util/List;	Ljava/util/List<Lnp;>;
-nu	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	<init>	(IILjava/lang/Object;Lnu;)V	(IITT;Lnu<TT;>;)V
-	b	()Ljava/lang/Object;	()TT;
-	b	Ljava/lang/Object;	TT;
-	c	Lnu;	Lnu<TT;>;
+nu	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	<init>	(IILjava/lang/Object;Lnu;)V	(IITV;Lnu<TV;>;)V
+	b	()Ljava/lang/Object;	()TV;
+	b	Ljava/lang/Object;	TV;
+	c	Lnu;	Lnu<TV;>;
 oa
 	a	(Lcq;Ljava/util/List;)V	(Lcq;Ljava/util/List<Lei;>;)V
 oc

@@ -105,10 +105,14 @@ gf	Ljava/lang/Enum<Lgf;>;
 gg	Ljava/lang/Object;Ljava/util/Comparator<Lbz;>;
 gm
 	a	(Ldd;IIILct;Ljava/util/ArrayList;)V	(Ldd;IIILct;Ljava/util/ArrayList<Lct;>;)V
-gn	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	a	([Lpg;)V	([Lpg<TT;>;)V
-	a	[Lpg;	[Lpg<TT;>;
-	c	(I)Lpg;	(I)Lpg<TT;>;
+gn	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	a	(I)Ljava/lang/Object;	(I)TV;
+	a	(IILjava/lang/Object;I)V	(IITV;I)V
+	a	(ILjava/lang/Object;)V	(ITV;)V
+	a	([Lpg;)V	([Lpg<TV;>;)V
+	a	[Lpg;	[Lpg<TV;>;
+	b	(I)Ljava/lang/Object;	(I)TV;
+	c	(I)Lpg;	(I)Lpg<TV;>;
 gq
 	a	(Lhi;)[Ljava/lang/Class;	(Lhi;)[Ljava/lang/Class<+Lhp;>;
 	r	[Ljava/lang/Class;	[Ljava/lang/Class<+Lhp;>;
@@ -242,9 +246,11 @@ paulscode/sound/libraries/ChannelLWJGLOpenAL
 paulscode/sound/libraries/LibraryLWJGLOpenAL
 	ALBufferMap	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/String;Ljava/nio/IntBuffer;>;
 	copySources	(Ljava/util/HashMap;)V	(Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/Source;>;)V
-pg	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	<init>	(IILjava/lang/Object;Lpg;)V	(IILjava/lang/Object;Lpg<TT;>;)V
-	c	Lpg;	Lpg<TT;>;
+pg	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	<init>	(IILjava/lang/Object;Lpg;)V	(IITV;Lpg<TV;>;)V
+	b	()Ljava/lang/Object;	()TV;
+	b	Ljava/lang/Object;	TV;
+	c	Lpg;	Lpg<TV;>;
 qg	Lei<Lca;>;
 qn	Lei<Ljc;>;
 ra	Lei<Lbg;>;

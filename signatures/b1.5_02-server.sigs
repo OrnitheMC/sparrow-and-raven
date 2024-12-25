@@ -66,14 +66,14 @@ dg
 	d	(IIIIII)Ljava/util/List;	(IIIIII)Ljava/util/List<Lin;>;
 dh
 	a	(Lck;Ljava/util/List;)V	(Lck;Ljava/util/List<Leb;>;)V
-dn	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	a	(IJLjava/lang/Object;I)V	(IJTT;I)V
-	a	(J)Ljava/lang/Object;	(J)TT;
-	a	(JLjava/lang/Object;)V	(JTT;)V
-	a	([Lji;)V	([Lji<TT;>;)V
-	a	[Lji;	[Lji<TT;>;
-	b	(J)Ljava/lang/Object;	(J)TT;
-	c	(J)Lji;	(J)Lji<TT;>;
+dn	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	a	(IJLjava/lang/Object;I)V	(IJTV;I)V
+	a	(J)Ljava/lang/Object;	(J)TV;
+	a	(JLjava/lang/Object;)V	(JTV;)V
+	a	([Lji;)V	([Lji<TV;>;)V
+	a	[Lji;	[Lji<TV;>;
+	b	(J)Ljava/lang/Object;	(J)TV;
+	c	(J)Lji;	(J)Lji<TV;>;
 dp
 	c	Lfx;	Lfx<Ld;>;
 el
@@ -112,14 +112,15 @@ fq
 	c	Ljava/util/List;	Ljava/util/List<Lmp;>;
 	d	Ljava/util/List;	Ljava/util/List<Lln;>;
 	e	Ljava/util/List;	Ljava/util/List<Lln;>;
-fx	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	a	(I)Ljava/lang/Object;	(I)TT;
-	a	(IILjava/lang/Object;I)V	(IITT;I)V
-	a	(ILjava/lang/Object;)V	(ITT;)V
-	a	([Lnc;)V	([Lnc<TT;>;)V
-	a	[Lnc;	[Lnc<TT;>;
-	d	(I)Ljava/lang/Object;	(I)TT;
-	e	(I)Lnc;	(I)Lnc<TT;>;
+fx	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	a	(I)Ljava/lang/Object;	(I)TV;
+	a	(IILjava/lang/Object;I)V	(IITV;I)V
+	a	(ILjava/lang/Object;)V	(ITV;)V
+	a	([Lnc;)V	([Lnc<TV;>;)V
+	a	[Lnc;	[Lnc<TV;>;
+	c	(I)Lnc;	(I)Lnc<TV;>;
+	d	(I)Ljava/lang/Object;	(I)TV;
+	e	(I)Lnc;	(I)Lnc<TV;>;
 ga
 	<init>	(ILjava/util/List;)V	(ILjava/util/List<Lfk;>;)V
 gb
@@ -168,11 +169,11 @@ ir
 	m	Ljava/util/List;	Ljava/util/List<Lgc;>;
 jd
 	f	Ljava/util/ArrayList;	Ljava/util/ArrayList<Ljava/lang/Boolean;>;
-ji	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	<init>	(IJLjava/lang/Object;Lji;)V	(IJTT;Lji<TT;>;)V
-	b	()Ljava/lang/Object;	()TT;
-	b	Ljava/lang/Object;	TT;
-	c	Lji;	Lji<TT;>;
+ji	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	<init>	(IJLjava/lang/Object;Lji;)V	(IJTV;Lji<TV;>;)V
+	b	()Ljava/lang/Object;	()TV;
+	b	Ljava/lang/Object;	TV;
+	c	Lji;	Lji<TV;>;
 jm
 	g	Ljava/util/Set;	Ljava/util/Set<Lmx;>;
 jn	Ljava/lang/Object;Ljava/lang/Comparable<Ljn;>;
@@ -210,11 +211,11 @@ mj
 	b	Lfx;	Lfx<Les;>;
 mn
 	g	Ljava/util/List;	Ljava/util/List<Lmx;>;
-nc	<T:Ljava/lang/Object;>Ljava/lang/Object;
-	<init>	(IILjava/lang/Object;Lnc;)V	(IITT;Lnc<TT;>;)V
-	b	()Ljava/lang/Object;	()TT;
-	b	Ljava/lang/Object;	TT;
-	c	Lnc;	Lnc<TT;>;
+nc	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	<init>	(IILjava/lang/Object;Lnc;)V	(IITV;Lnc<TV;>;)V
+	b	()Ljava/lang/Object;	()TV;
+	b	Ljava/lang/Object;	TV;
+	c	Lnc;	Lnc<TV;>;
 net/minecraft/server/MinecraftServer
 	b	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Integer;>;
 	r	Ljava/util/List;	Ljava/util/List<Lcx;>;
