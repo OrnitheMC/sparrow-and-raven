@@ -1,0 +1,213 @@
+a
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ab
+	a	(Lip;)[B	java/io/IOException
+	a	(Lip;Ljava/io/DataOutput;)V	java/io/IOException
+	a	(Lip;Ljava/io/OutputStream;)V	java/io/IOException
+	a	(Ljava/io/DataInput;)Lip;	java/io/IOException
+	a	(Ljava/io/InputStream;)Lip;	java/io/IOException
+	a	([B)Lip;	java/io/IOException
+ai
+	a	(Lcx;II)Lgz;	java/io/IOException
+	a	(Lcx;Lgz;)V	java/io/IOException
+bn
+	a	(Ljava/net/URL;Ljava/io/File;J)V	java/io/IOException
+bu
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ch
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+cp
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+cq
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+du
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ec
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ej
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+eo
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+ep
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ez
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+fc
+	a	(Lfc;Ljava/io/DataOutput;)V	java/io/IOException
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+	b	(Ljava/io/DataInput;)Lfc;	java/io/IOException
+fi
+	openInputStream	()Ljava/io/InputStream;	java/io/IOException
+fr
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ft
+	a	(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;	java/io/IOException
+fu
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+gb
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+gj
+	a	(Lgj;Ljava/io/DataOutputStream;)V	java/io/IOException
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+	b	(Ljava/io/DataInputStream;)Lgj;	java/io/IOException
+gw
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+h
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+hk
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+hp
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+hr
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+hv
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ia
+	<init>	(Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V	java/io/IOException
+ic
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ih
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+im
+	read	()I	java/io/IOException
+	read	([BII)I	java/io/IOException
+in
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ip
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+it
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+jj
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+jp
+	<init>	(Ljava/net/Socket;Ljava/lang/String;Lmn;)V	java/io/IOException
+jq
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+jx
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+kc
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+kj
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+ku
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+kx
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+lb
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+lh
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+lk
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+lp
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+lx
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+ly
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+mc
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+mg
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+ms
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+mt
+	a	(Lcx;II)Lgz;	java/io/IOException
+	a	(Lcx;Lgz;)V	java/io/IOException
+mw
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+net/minecraft/client/Minecraft
+	a	()V	org/lwjgl/LWJGLException
+	q	()V	org/lwjgl/LWJGLException
+ng
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+ni
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+ny
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+oc
+	<init>	(Ljava/io/File;)V	java/io/IOException
+ou
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+p
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+pa
+	a	(Ljava/io/DataInput;)V	java/io/IOException
+	a	(Ljava/io/DataOutput;)V	java/io/IOException
+paulscode/sound/Library
+	<init>	()V	paulscode/sound/SoundSystemException
+	init	()V	paulscode/sound/SoundSystemException
+paulscode/sound/SoundSystem
+	<init>	(Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
+	init	(Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
+	newLibrary	(Ljava/lang/Class;)Z	paulscode/sound/SoundSystemException
+	switchLibrary	(Ljava/lang/Class;)Z	paulscode/sound/SoundSystemException
+paulscode/sound/SoundSystemConfig
+	addLibrary	(Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
+	setCodec	(Ljava/lang/String;Ljava/lang/Class;)V	paulscode/sound/SoundSystemException
+paulscode/sound/Vector3D
+	clone	()Ljava/lang/Object;	java/lang/CloneNotSupportedException
+paulscode/sound/codecs/CodecJOrbis
+	openInputStream	()Ljava/io/InputStream;	java/io/IOException
+	readHeader	()Z	java/io/IOException
+paulscode/sound/libraries/LibraryLWJGLOpenAL
+	<init>	()V	paulscode/sound/SoundSystemException
+	init	()V	paulscode/sound/SoundSystemException
+px
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+qh
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
+t
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
