@@ -1,0 +1,225 @@
+ab
+	g	Ljava/util/List;	Ljava/util/List<Lis;>;
+ah
+	d	Ljava/util/List;	Ljava/util/List<Lah;>;
+ai	<T:Ljp;>Ljava/lang/Object;
+	a	(Ljp;DDDFF)V	(TT;DDDFF)V
+	b	(Ljp;DDDFF)V	(TT;DDDFF)V
+av
+	<init>	(ILjava/lang/Class;[Ljava/lang/Class;)V	(ILjava/lang/Class<*>;[Ljava/lang/Class<+Lfr;>;)V
+	b	Ljava/lang/Class;	Ljava/lang/Class<*>;
+	c	[Ljava/lang/Class;	[Ljava/lang/Class<+Lfr;>;
+	d	Ljava/util/Set;	Ljava/util/Set<Lnk;>;
+bc
+	b	Ljava/util/List;	Ljava/util/List<Lmp;>;
+bd
+	e	Ljava/util/List;	Ljava/util/List<Lex;>;
+bj
+	<init>	(Lcj;Ljava/util/List;IIIII)V	(Lcj;Ljava/util/List<Lhn;>;IIIII)V
+	B	Ljava/util/List;	Ljava/util/List<Lhn;>;
+	F	Ljava/util/List;	Ljava/util/List<Lhn;>;
+bm
+	b	[Ljava/util/List;	[Ljava/util/List<Lmq;>;
+bq	Ldf<Lde;>;
+bs	Lai<Lim;>;
+bu	Ljava/lang/Enum<Lbu;>;
+	<init>	(Ljava/lang/String;II)V	(I)V
+cb
+	g	Ljava/util/List;	Ljava/util/List<Lcb;>;
+cj
+	D	Ljava/util/List;	Ljava/util/List<Lhv;>;
+	H	Ljava/util/ArrayList;	Ljava/util/ArrayList<Lcb;>;
+	I	Ljava/util/Set;	Ljava/util/Set<Lnk;>;
+	K	Ljava/util/List;	Ljava/util/List<Ljp;>;
+	a	(Ljava/lang/Class;)Ljp;	(Ljava/lang/Class<*>;)Ljp;
+	a	(Ljava/lang/Class;Lcb;)Ljava/util/List;	<T:Ljp;>(Ljava/lang/Class<+TT;>;Lcb;)Ljava/util/List<TT;>;
+	a	(Ljava/util/List;)V	(Ljava/util/List<Ljp;>;)V
+	a	(Ljp;Lcb;)Ljava/util/List;	(Ljp;Lcb;)Ljava/util/List<Lcb;>;
+	a	Ljava/util/List;	Ljava/util/List<Lhn;>;
+	b	(Ljava/lang/Class;)I	(Ljava/lang/Class<*>;)I
+	b	(Ljava/util/List;)V	(Ljava/util/List<Ljp;>;)V
+	b	(Ljp;Lcb;)Ljava/util/List;	(Ljp;Lcb;)Ljava/util/List<Ljp;>;
+	i	()Ljava/util/List;	()Ljava/util/List<Ljp;>;
+	i	Ljava/util/List;	Ljava/util/List<Lde;>;
+	v	Ljava/util/List;	Ljava/util/List<Ljt;>;
+	w	Ljava/util/List;	Ljava/util/List<Ljp;>;
+	x	Ljava/util/List;	Ljava/util/List<Ljp;>;
+	y	Ljava/util/TreeSet;	Ljava/util/TreeSet<Lip;>;
+	z	Ljava/util/Set;	Ljava/util/Set<Lip;>;
+cl	Lai<Lcv;>;
+cs
+	c	Lev;	Lev<La;>;
+cy
+	a	Ljava/util/List;	Ljava/util/List<Ljava/lang/Integer;>;
+	b	Ljava/util/List;	Ljava/util/List<Ljava/lang/Integer;>;
+d	Ldf<Lcw;>;
+dc	Lai<Let;>;
+dd
+	a	Ljava/util/List;	Ljava/util/List<Llb;>;
+df	<T:Lfr;>Lai<TT;>;
+	a	(Lfr;)F	(TT;)F
+	a	(Lfr;DDDFF)V	(TT;DDDFF)V
+	a	(Lfr;F)V	(TT;F)V
+	a	(Lfr;FF)I	(TT;FF)I
+	a	(Lfr;I)Z	(TT;I)Z
+	b	(Lfr;F)V	(TT;F)V
+do
+	b	Ljava/util/List;	Ljava/util/List<Lbr;>;
+dt
+	c	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/String;Ljava/util/List<Laf;>;>;
+	d	Ljava/util/List;	Ljava/util/List<Laf;>;
+dw
+	i	Ljava/util/List;	Ljava/util/List<Ldj;>;
+e
+	R	Ljava/util/List;	Ljava/util/List<Lbj;>;
+	a	Ljava/util/List;	Ljava/util/List<Lhn;>;
+	m	Ljava/util/List;	Ljava/util/List<Lbj;>;
+ea	Lai<Lal;>;
+eh	Ljava/lang/Enum<Leh;>;
+	<init>	(Ljava/lang/String;ILjava/lang/String;IIII)V	(Ljava/lang/String;IIII)V
+el
+	a	(Ljava/lang/Class;Ljava/lang/String;)V	(Ljava/lang/Class<+Ljp;>;Ljava/lang/String;)V
+	a	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<+Ljp;>;>;
+	b	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Class<+Ljp;>;Ljava/lang/String;>;
+em	<T:Lhn;>Ljava/lang/Object;
+	a	(Lhn;DDDF)V	(TT;DDDF)V
+en
+	b	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/String;Ljava/lang/Integer;>;
+	c	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/Integer;Ljava/awt/image/BufferedImage;>;
+	f	Ljava/util/List;	Ljava/util/List<Ly;>;
+	g	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/String;Lby;>;
+eo	Ljava/lang/Enum<Leo;>;
+	<init>	(Ljava/lang/String;I)V	()V
+ep	Ljava/lang/Object;Ljava/util/Comparator<Lbj;>;
+ev	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	a	(I)Ljava/lang/Object;	(I)TV;
+	a	(IILjava/lang/Object;I)V	(IITV;I)V
+	a	(ILjava/lang/Object;)V	(ITV;)V
+	a	([Llz;)V	([Llz<TV;>;)V
+	a	[Llz;	[Llz<TV;>;
+	b	(I)Ljava/lang/Object;	(I)TV;
+	c	(I)Llz;	(I)Llz<TV;>;
+ez
+	a	(ILjava/lang/Class;)V	(ILjava/lang/Class<+Lez;>;)V
+	a	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Integer;Ljava/lang/Class<+Lez;>;>;
+	b	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Class<+Lez;>;Ljava/lang/Integer;>;
+ff	Ljava/lang/Object;Ljava/util/Comparator<Lbr;>;
+fm
+	a	(Ljava/lang/Class;)Lem;	<T:Lhn;>(Ljava/lang/Class<+Lhn;>;)Lem<TT;>;
+	b	(Lhn;)Lem;	<T:Lhn;>(Lhn;)Lem<TT;>;
+	m	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Class<+Lhn;>;Lem<+Lhn;>;>;
+fn
+	a	(Ljava/lang/Class;Lcb;Ljava/util/List;)V	<T:Ljp;>(Ljava/lang/Class<+TT;>;Lcb;Ljava/util/List<TT;>;)V
+	a	(Ljp;Lcb;Ljava/util/List;)V	(Ljp;Lcb;Ljava/util/List<Ljp;>;)V
+	l	Ljava/util/Map;	Ljava/util/Map<Llw;Lhn;>;
+	m	[Ljava/util/List;	[Ljava/util/List<Ljp;>;
+fx	Lai<Ljp;>;
+fy	Lai<Ljo;>;
+fz	Ljava/lang/Object;Ljava/util/Comparator<Lbj;>;
+ga	Ldf<Lly;>;
+ge	Ldf<Llf;>;
+gg
+	v	Ljava/util/LinkedList;	Ljava/util/LinkedList<Lkh;>;
+	y	Lev;	Lev<Ljp;>;
+gw
+	a	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/String;Led;>;
+hg	Lai<Lin;>;
+hn
+	a	(Ljava/lang/Class;Ljava/lang/String;)V	(Ljava/lang/Class<+Lhn;>;Ljava/lang/String;)V
+	a	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/String;Ljava/lang/Class<+Lhn;>;>;
+	b	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Class<+Lhn;>;Ljava/lang/String;>;
+hq	Ljava/lang/Enum<Lhq;>;
+	<init>	(Ljava/lang/String;I)V	()V
+hr
+	e	Ljava/util/List;	Ljava/util/List<Lez;>;
+	f	Ljava/util/List;	Ljava/util/List<Lez;>;
+	g	Ljava/util/List;	Ljava/util/List<Lez;>;
+hw	Lem<Lna;>;
+ip	Ljava/lang/Object;Ljava/lang/Comparable<Lip;>;
+jb	Ljava/lang/Enum<Ljb;>;
+	<init>	(Ljava/lang/String;I)V	()V
+jq
+	a	Ljava/util/List;	Ljava/util/List<Led;>;
+js
+	a	(Lcj;IIILcb;Ljava/util/ArrayList;)V	(Lcj;IIILcb;Ljava/util/ArrayList<Lcb;>;)V
+jz	Lai<Lnb;>;
+kc
+	a	(Ljava/lang/Class;)Lai;	<T:Ljp;>(Ljava/lang/Class<+Ljp;>;)Lai<TT;>;
+	a	(Ljp;)Lai;	<T:Ljp;>(Ljp;)Lai<TT;>;
+	o	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/Class<+Ljp;>;Lai<+Ljp;>;>;
+kv
+	<init>	(ILjava/lang/Class;Z)V	(ILjava/lang/Class<+Lhn;>;Z)V
+	a	Ljava/lang/Class;	Ljava/lang/Class<+Lhn;>;
+kz
+	e	Ljava/util/List;	Ljava/util/List<Lju;>;
+lb
+	a	(Lcj;IIILcb;Ljava/util/ArrayList;)V	(Lcj;IIILcb;Ljava/util/ArrayList<Lcb;>;)V
+ld
+	b	Ljava/util/Map;	Ljava/util/Map<Lgo;Lfn;>;
+	c	Ljava/util/List;	Ljava/util/List<Lfn;>;
+lh	Ldf<Lak;>;
+lp
+	g	Ljava/util/List;	Ljava/util/List<Llw;>;
+lz	<V:Ljava/lang/Object;>Ljava/lang/Object;
+	<init>	(IILjava/lang/Object;Llz;)V	(IITV;Llz<TV;>;)V
+	b	()Ljava/lang/Object;	()TV;
+	b	Ljava/lang/Object;	TV;
+	c	Llz;	Llz<TV;>;
+ms	Ldf<Lbk;>;
+my	Ldf<Lgv;>;
+nj	Ldf<Lat;>;
+paulscode/sound/Channel
+	libraryType	Ljava/lang/Class;	Ljava/lang/Class<*>;
+	preLoadBuffers	(Ljava/util/LinkedList;)Z	(Ljava/util/LinkedList<[B>;)Z
+paulscode/sound/CommandObject
+	<init>	(ILjava/lang/Class;)V	(ILjava/lang/Class<*>;)V
+	classArgs	[Ljava/lang/Class;	[Ljava/lang/Class<*>;
+paulscode/sound/Library
+	bufferMap	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/SoundBuffer;>;
+	copySources	(Ljava/util/HashMap;)V	(Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/Source;>;)V
+	getSources	()Ljava/util/HashMap;	()Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/Source;>;
+	normalChannels	Ljava/util/List;	Ljava/util/List<Lpaulscode/sound/Channel;>;
+	sourceMap	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/Source;>;
+	streamingChannels	Ljava/util/List;	Ljava/util/List<Lpaulscode/sound/Channel;>;
+paulscode/sound/MidiChannel
+	sequenceQueue	Ljava/util/LinkedList;	Ljava/util/LinkedList<Lpaulscode/sound/FilenameURL;>;
+paulscode/sound/SoundSystem
+	<init>	(Ljava/lang/Class;)V	(Ljava/lang/Class<*>;)V
+	CommandNewLibrary	(Ljava/lang/Class;)V	(Ljava/lang/Class<*>;)V
+	commandQueue	Ljava/util/List;	Ljava/util/List<Lpaulscode/sound/CommandObject;>;
+	copySources	(Ljava/util/HashMap;)Ljava/util/HashMap;	(Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/Source;>;)Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/Source;>;
+	currentLibrary	()Ljava/lang/Class;	()Ljava/lang/Class<*>;
+	currentLibrary	(ZLjava/lang/Class;)Ljava/lang/Class;	(ZLjava/lang/Class<*>;)Ljava/lang/Class<*>;
+	currentLibrary	Ljava/lang/Class;	Ljava/lang/Class<*>;
+	init	(Ljava/lang/Class;)V	(Ljava/lang/Class<*>;)V
+	libraryCompatible	(Ljava/lang/Class;)Z	(Ljava/lang/Class<*>;)Z
+	newLibrary	(Ljava/lang/Class;)Z	(Ljava/lang/Class<*>;)Z
+	sourcePlayList	Ljava/util/List;	Ljava/util/List<Lpaulscode/sound/CommandObject;>;
+	switchLibrary	(Ljava/lang/Class;)Z	(Ljava/lang/Class<*>;)Z
+paulscode/sound/SoundSystemConfig
+	addLibrary	(Ljava/lang/Class;)V	(Ljava/lang/Class<*>;)V
+	codecs	Ljava/util/LinkedList;	Ljava/util/LinkedList<Lpaulscode/sound/SoundSystemConfig$Codec;>;
+	getLibraries	()Ljava/util/LinkedList;	()Ljava/util/LinkedList<Ljava/lang/Class<*>;>;
+	getLibraryDescription	(Ljava/lang/Class;)Ljava/lang/String;	(Ljava/lang/Class<*>;)Ljava/lang/String;
+	getLibraryTitle	(Ljava/lang/Class;)Ljava/lang/String;	(Ljava/lang/Class<*>;)Ljava/lang/String;
+	libraries	Ljava/util/LinkedList;	Ljava/util/LinkedList<Ljava/lang/Class<*>;>;
+	libraryCompatible	(Ljava/lang/Class;)Z	(Ljava/lang/Class<*>;)Z
+	removeLibrary	(Ljava/lang/Class;)V	(Ljava/lang/Class<*>;)V
+	runMethod	(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;	(Ljava/lang/Class<*>;Ljava/lang/String;[Ljava/lang/Class<*>;[Ljava/lang/Object;)Ljava/lang/Object;
+	setCodec	(Ljava/lang/String;Ljava/lang/Class;)V	(Ljava/lang/String;Ljava/lang/Class<*>;)V
+paulscode/sound/SoundSystemConfig$Codec
+	<init>	(Ljava/lang/String;Ljava/lang/Class;)V	(Ljava/lang/String;Ljava/lang/Class<*>;)V
+	iCodecClass	Ljava/lang/Class;	Ljava/lang/Class<*>;
+paulscode/sound/Source
+	libraryType	Ljava/lang/Class;	Ljava/lang/Class<*>;
+	soundSequenceQueue	Ljava/util/LinkedList;	Ljava/util/LinkedList<Lpaulscode/sound/FilenameURL;>;
+paulscode/sound/StreamThread
+	streamingSources	Ljava/util/List;	Ljava/util/List<Lpaulscode/sound/Source;>;
+paulscode/sound/libraries/ChannelLWJGLOpenAL
+	preLoadBuffers	(Ljava/util/LinkedList;)Z	(Ljava/util/LinkedList<[B>;)Z
+paulscode/sound/libraries/LibraryLWJGLOpenAL
+	ALBufferMap	Ljava/util/HashMap;	Ljava/util/HashMap<Ljava/lang/String;Ljava/nio/IntBuffer;>;
+	copySources	(Ljava/util/HashMap;)V	(Ljava/util/HashMap<Ljava/lang/String;Lpaulscode/sound/Source;>;)V
+q	Lem<Lba;>;
+	b	Ljava/util/Map;	Ljava/util/Map<Ljava/lang/String;Ljp;>;
+z	Lai<Ldp;>;
