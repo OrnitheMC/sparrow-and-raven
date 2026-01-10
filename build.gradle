@@ -5,6 +5,7 @@ import org.apache.commons.io.FileUtils
 
 plugins {
 	id 'java'
+	id 'eclipse'
 	id 'maven-publish'
 	id 'keratin' version '40.0'
 	id 'de.undercouch.download' version '5.6.0'
@@ -123,11 +124,13 @@ void makePublications(def dir, def ext, def versions, def maven_url, def maven_g
 }
 
 if (maven_url) {
+	def files = keratin.getExceptionsAndSignaturesDevelopmentFiles()
+
 	fetchPublishedVersions(maven_url, maven_group_for_url, raven_artifact_id, ravenVersions)
 	fetchPublishedVersions(maven_url, maven_group_for_url, sparrow_artifact_id, sparrowVersions)
 
-	makePublications(keratin.files.getExceptionsDirectory(), '.excs', ravenVersions, maven_url, maven_group, maven_group_for_url, raven_artifact_id, 'exceptions')
-	makePublications(keratin.files.getSignaturesDirectory(), '.sigs', sparrowVersions, maven_url, maven_group, maven_group_for_url, sparrow_artifact_id, 'signatures')
+	makePublications(files.getExceptionsDirectory(), '.excs', ravenVersions, maven_url, maven_group, maven_group_for_url, raven_artifact_id, 'exceptions')
+	makePublications(files.getSignaturesDirectory(), '.sigs', sparrowVersions, maven_url, maven_group, maven_group_for_url, sparrow_artifact_id, 'signatures')
 
 	publishing {
 		repositories {
