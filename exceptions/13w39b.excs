@@ -1,0 +1,3 @@
+dp
+	a	(Ljava/io/DataInput;)Lde;	java/io/IOException
+	a	(Lde;Ljava/io/DataOutput;)V	java/io/IOException
