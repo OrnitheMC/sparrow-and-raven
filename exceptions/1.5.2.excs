@@ -1,0 +1,3 @@
+cc
+	a	(Ljava/io/DataInput;)Lbs;	java/io/IOException
+	a	(Lbs;Ljava/io/DataOutput;)V	java/io/IOException
