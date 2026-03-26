@@ -1,0 +1,2 @@
+h
+	a	(Ljava/lang/String;)Ljava/io/InputStream;	java/io/IOException

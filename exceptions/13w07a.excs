@@ -1,0 +1,4 @@
+bha
+	a	(Ljava/lang/String;)Ljava/io/InputStream;	java/io/IOException
+bgw
+	a	(Ljava/lang/String;)Ljava/io/InputStream;	java/io/IOException
