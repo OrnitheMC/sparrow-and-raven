@@ -3,3 +3,6 @@ bjp
 cc
 	a	(Ljava/io/DataInput;)Lbs;	java/io/IOException
 	a	(Lbs;Ljava/io/DataOutput;)V	java/io/IOException
+ei
+	a	(Ljava/io/DataInputStream;)V	java/io/IOException
+	a	(Ljava/io/DataOutputStream;)V	java/io/IOException
