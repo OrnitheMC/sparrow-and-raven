@@ -1,5 +1,8 @@
 bjp
 	b	(Ljava/lang/String;)Ljava/io/InputStream;	java/io/IOException
+bjt
+	a	(Ljava/lang/String;)Ljava/io/InputStream;	java/io/IOException
+	a	(Ljava/lang/String;Z)Ljava/io/InputStream;	java/io/IOException
 cc
 	a	(Ljava/io/DataInput;)Lbs;	java/io/IOException
 	a	(Lbs;Ljava/io/DataOutput;)V	java/io/IOException
